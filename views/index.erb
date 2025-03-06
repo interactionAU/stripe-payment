@@ -19,8 +19,9 @@
             </div>
             <div class="checkout">
                 <form action="/create-checkout-session" method="POST">
-                    <label for="amount">Enter Amount (AUD):</label>
-                    <input type="number" name="amount" id="amount" value="<%= @amount %>" min="1" required />
+                    <label for="amount">Amount (AUD):</label>
+                    <span><%= @amount %></span>
+                    <input type="hidden" name="amount" id="amount" value="<%= @amount %>" />
                     <button type="submit">Checkout</button>
                 </form>
             </div>
