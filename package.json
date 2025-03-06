@@ -1,0 +1,20 @@
+{
+  "name": "stripe-payment",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^4.0.4",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.3"
+  },
+  "source": "public/index.html",
+  "dependencies": {
+    "@stripe/connect-js": "3.3.5"
+  }
+}
