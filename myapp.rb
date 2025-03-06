@@ -45,7 +45,7 @@ end
 
 #create a page to server checkout.html
 get '/' do
-  @amount = params[:amount] || 1000  # Default amount is 1000 cents ($10 AUD)
+  @amount = params[:amount] || 10  # Default amount is 10 ($10 AUD)
   erb :index
 end
 
